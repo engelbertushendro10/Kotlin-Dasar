@@ -1,8 +1,8 @@
 fun main() {
-    var matek = 79
-    var bing = 89
-    var ipa = 92
-    var ips = 67
+    var matek = 89
+    var bing = 90
+    var ipa = 90
+    var ips = 90
 
     var nilai = arrayOf(matek,bing,ipa,ips)
     var average = nilai.average()

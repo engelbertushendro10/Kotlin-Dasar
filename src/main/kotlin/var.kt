@@ -10,8 +10,7 @@ fun main() {
     println ("variable y =  $y")
 
     ganjilGenap()
-    cekUmur(1997)
-    luasSegitiga(5, 20)
+
     luasLingkaran(15)
     tukarVariabel()
 
@@ -35,24 +34,8 @@ fun ganjilGenap() {
     }
 }
 
-fun cekUmur(tahun:Int){
 
-    var Sekarang = 2020
-    var umur = Sekarang - tahun
 
-    println("umru = $umur")
 
-}
-
-fun luasSegitiga(alas:Int, tinggi:Int){
-    var luas = alas * tinggi /2
-    println ("luas segitiga = $luas")
-}
-
-fun luasLingkaran(jariJair:Int){
-
-    var luas = 3.14 *jariJair *jariJair
-    println("luas lingkaran = $luas")
-}
 
 
