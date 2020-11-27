@@ -1,12 +1,21 @@
+import java.text.SimpleDateFormat
+import java.util.*
+
 fun main() {
     cekUmur(1997)
 }
 
 fun cekUmur(tahun:Int){
 
-    var Sekarang = 2020
-    var umur = Sekarang - tahun
+    val cal = Calendar.getInstance()
+    val date = SimpleDateFormat("yyyy", Locale.getDefault())
 
-    println("umru = $umur")
+    val yearNow = date.format(cal.time).toInt()
+
+
+    //val sekarang = 2020
+    val umur = yearNow - tahun
+
+    println("umur = $umur")
 
 }

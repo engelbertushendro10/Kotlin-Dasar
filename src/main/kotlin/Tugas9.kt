@@ -6,7 +6,7 @@ fun main(){
 fun segitiga(num:Int){
     for (i in num downTo 1){
         for(j in 1..i){
-            print(j)
+            print(5)
         }
         println(" ")
     }

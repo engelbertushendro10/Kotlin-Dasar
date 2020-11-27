@@ -1,8 +1,7 @@
 fun main() {
-    println("Input number : ")
-    val form = readLine().toString().trim{it <= '0'}
-
-//    Answer 1
+    val form = 878210789875.toString().trim{it <='0'}
+//
+    // mengurutkan isi form dari pembatas => 0
     val str = form.split("0")
     val strNew = mutableListOf<String>()
 
