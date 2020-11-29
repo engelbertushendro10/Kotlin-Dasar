@@ -9,4 +9,5 @@ fun main() {
         strNew.add(str[i].map { it }.sorted().joinToString(""))
     }
     println(strNew.joinToString(""))
+
 }
